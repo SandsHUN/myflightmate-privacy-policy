@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyFlightMate – Privacy Policy</title>
+<meta name="description" content="Privacy policy of the MyFlightMate Android app: no accounts, no ads, no tracking; location is processed on the device only.">
+<style>
+  :root {
+    --bg: #f6f8fb; --card: #ffffff; --text: #18212f; --muted: #556275;
+    --accent: #0086a8; --line: #dde3ea; --head: #0b1424;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #070d1a; --card: #0e1729; --text: #dbe5f1; --muted: #93a3b8;
+      --accent: #00e5ff; --line: #1e2b42; --head: #ffffff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 16px; margin-bottom: 28px; }
+  h1 { color: var(--head); font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; }
+  .date { color: var(--muted); margin: 0; }
+  h2 { color: var(--head); font-size: 1.2rem; margin: 32px 0 8px; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>MyFlightMate – Privacy Policy</h1>
+    <p class="date">Effective date: 16 November 2026</p>
+  </header>
+
+  <p>MyFlightMate ("the app") is published by RZ Dev Studios. It is an offline in-flight companion: it
+  shows flight telemetry from the phone's own GPS receiver and sensors, keeps a flight log, and offers
+  games and relaxation sounds for the flight.</p>
+
+  <h2>What the app does not do</h2>
+  <div class="card">
+    <ul>
+      <li>It has no user accounts and no sign-in.</li>
+      <li>It does not collect, store or transmit personal data to us or to anyone else.</li>
+      <li>It contains no advertising and no analytics or tracking software of any kind.</li>
+      <li>It makes no network requests except the one described under <em>News</em> below.</li>
+    </ul>
+  </div>
+
+  <h2>Data processed on your device</h2>
+  <p><strong>Location.</strong> The app reads the phone's GPS position to show speed, altitude, heading,
+  the places around you and the distance to your destination. Positions are processed in memory. The
+  automatic flight log keeps a summary of each flight (date, duration, distance, maximum altitude and
+  speed, touchdown load) and the list of cities you flew over, in the app's private storage on your
+  phone. Nothing about your position ever leaves the device. With the tracking notification the app
+  keeps reading GPS while the screen is off; closing the app stops it.</p>
+
+  <p><strong>Camera.</strong> The optional boarding-pass scanner uses the camera to decode the barcode
+  of a boarding pass. The decoded flight, origin and destination are used to set your route; no image
+  is saved and nothing is uploaded.</p>
+
+  <p><strong>Sensors.</strong> The accelerometer, rotation sensor and barometer (where present) drive
+  the artificial horizon, the G-force meter, turbulence haptics and the cabin-pressure monitor.
+  Readings are used live and are not stored, except the peak values written into a flight-log entry.</p>
+
+  <p><strong>Game results and settings.</strong> High scores, the pilot passport, trophies and your
+  settings are kept in the app's private storage. <em>Settings → Backup</em> writes them to a file you
+  choose; <em>Restore</em> reads such a file back; <em>Erase progress</em> deletes them. Uninstalling
+  the app deletes everything it stored.</p>
+
+  <h2>News</h2>
+  <p>If you choose <em>Download news</em>, the app fetches the public RSS feeds of the publishers you
+  selected over your internet connection, so you can read the headlines offline later. The request
+  goes to the publishers' servers directly and carries no identifier of yours beyond what any web
+  request carries (your IP address). The downloaded articles are stored on your phone only.</p>
+
+  <h2>Permissions</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Permission</th><th>Used for</th></tr></thead>
+      <tbody>
+        <tr><td>Location (precise)</td><td>Flight telemetry, places around you, flight log</td></tr>
+        <tr><td>Camera</td><td>Boarding-pass scanner (optional)</td></tr>
+        <tr><td>Notifications</td><td>Tracking status, overflown-city, descent and news reminders</td></tr>
+        <tr><td>Foreground service (location)</td><td>Keeping tracking alive with the screen off</td></tr>
+        <tr><td>Internet, network state</td><td>The news download you start</td></tr>
+        <tr><td>Vibration</td><td>Turbulence haptics</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13 and collects no data from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published at the same address and the effective
+  date updated.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: use the developer contact e-mail shown on the app's Google Play page.</p>
+
+  <footer>© 2026 RZ Dev Studios · MyFlightMate</footer>
+</main>
+</body>
+</html>
